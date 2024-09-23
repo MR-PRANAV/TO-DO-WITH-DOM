@@ -1,0 +1,158 @@
+body{
+    margin: 0%;
+    padding: 1%;
+
+}
+
+body::-webkit-scrollbar{
+    display: none;
+}
+
+.header{
+    height: 170px;
+    width: 99.5%;
+    border: 2px solid black;
+    border-radius: 20px 20px 0px 0px ;
+}
+
+.header h1{
+    position: relative;
+    left: 30px;
+}
+
+.header input{
+    position: relative;
+    left: 30px;
+    width: 500px;
+}
+@media (max-width:585px) {
+    .header input{
+        width: 300px;
+    }
+}
+
+
+.header button{
+    position: relative;
+    left: 30px;
+    width: 150px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* --------------------------------------------------- */
+
+
+
+.footer{
+    height: 520px;
+    width: 99.5%;
+    border: 2px solid black;
+    border-radius: 0px 0px 20px 20px;
+    overflow: scroll;
+
+}
+.footer::-webkit-scrollbar{
+    display: none;
+}
+ul{
+    display: flex;
+    justify-content:space-around center;
+    flex-wrap: wrap;
+}
+/* @media (max-width:) {
+    
+} */
+ul li{
+    list-style-type: none;
+    min-height: 130px;
+    height: auto;
+    width: 97%;
+    border: 1px solid rgba(0, 0, 0, 0);
+    border-radius: 20px;
+    background-color: rgb(119, 119, 255);
+    padding: 10px 20px 10px 20px;
+    margin: 10px 0px 0px 0px;
+    overflow-x: hidden; /* Hide horizontal scrollbar */
+    overflow-y: scroll;
+}
+
+ul li::-webkit-scrollbar{
+    display: none;
+}
+
+ul li p{
+    border: 1px solid rgba(0, 0, 0, 0);
+    margin: -50px 0px 0px 50px;
+    color: white;
+    flex-wrap: wrap;
+}
+
+.idx-box{
+    height: 30px;
+    width: 30px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 5px;
+    color: white;
+    padding: 2px 0px 0px 10px;
+    position: sticky;
+    top: 10px;
+    cursor: pointer;
+}
+.del-box{
+    height: 30px;
+    width: 30px;
+    border: 1px solid rgba(255, 255, 255, 0);
+    border-radius: 5px;
+    color: white;
+    padding: 2px 0px 0px 10px;
+    position: sticky;
+    top: 50px;
+    cursor: pointer;
+}
+.del-icon{
+    margin: 0px 0px 0px -8px;
+}
+.del-icon:hover{
+    color: aqua;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* --------------------------------------------------------------------- */
+/* --------------------------------------------------------------------- */
+/* --------------------------------------------------------------------- */
+
+@media (max-width:649px) {
+    .header{
+        width: 100%;
+    }
+    .footer{
+        width: 100%;
+    }
+
+}
